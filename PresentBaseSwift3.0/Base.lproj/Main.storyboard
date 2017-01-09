@@ -33,7 +33,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="3L0-Rg-DCA">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IXt-pJ-Lhk"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IXt-pJ-Lhk">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4FD-Ld-kVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
