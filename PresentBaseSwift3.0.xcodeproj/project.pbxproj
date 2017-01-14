@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E221E8801E23E0FE00070CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221E87F1E23E0FE00070CC2 /* AppDelegate.swift */; };
-		E221E8821E23E0FE00070CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221E8811E23E0FE00070CC2 /* ViewController.swift */; };
 		E221E8851E23E0FE00070CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E221E8831E23E0FE00070CC2 /* Main.storyboard */; };
 		E221E8871E23E0FE00070CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E221E8861E23E0FE00070CC2 /* Assets.xcassets */; };
 		E221E88A1E23E0FE00070CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E221E8881E23E0FE00070CC2 /* LaunchScreen.storyboard */; };
+		E2689EEE1E29818F008A503A /* ChristmasPresentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E221E87C1E23E0FE00070CC2 /* PresentBaseSwift3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentBaseSwift3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E221E87F1E23E0FE00070CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E221E8811E23E0FE00070CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E221E8841E23E0FE00070CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E221E8861E23E0FE00070CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E221E8891E23E0FE00070CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E221E88B1E23E0FE00070CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChristmasPresentsTableViewController.swift; path = ../ChristmasPresentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E221E87F1E23E0FE00070CC2 /* AppDelegate.swift */,
-				E221E8811E23E0FE00070CC2 /* ViewController.swift */,
+				E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */,
 				E221E8831E23E0FE00070CC2 /* Main.storyboard */,
 				E221E8861E23E0FE00070CC2 /* Assets.xcassets */,
 				E221E8881E23E0FE00070CC2 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E221E8821E23E0FE00070CC2 /* ViewController.swift in Sources */,
+				E2689EEE1E29818F008A503A /* ChristmasPresentsTableViewController.swift in Sources */,
 				E221E8801E23E0FE00070CC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +299,7 @@
 				E221E8901E23E0FE00070CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
