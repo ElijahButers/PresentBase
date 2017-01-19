@@ -36,15 +36,19 @@ class ChristmasPresentsTableViewController: UITableViewController {
         return myGifts.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! PresentsTableViewCell
 
         // Configure the cell...
+        let giftObject = myGifts[indexPath.row]
+        cell.backgroundImageView.image = UIImage(named: giftObject["image"]!)
+        cell.nameLabel.text = giftObject["name"]
+        cell.itemLabel.text = giftObject["item"]
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
