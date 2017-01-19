@@ -22,7 +22,7 @@
 		E221E8861E23E0FE00070CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E221E8891E23E0FE00070CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E221E88B1E23E0FE00070CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentsTableViewCell.swift; sourceTree = "<group>"; };
+		E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentsTableViewCell.swift; path = ../PresentsTableViewCell.swift; sourceTree = "<group>"; };
 		E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChristmasPresentsTableViewController.swift; path = ../ChristmasPresentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +40,6 @@
 		E221E8731E23E0FE00070CC2 = {
 			isa = PBXGroup;
 			children = (
-				E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */,
 				E221E87E1E23E0FE00070CC2 /* PresentBaseSwift3.0 */,
 				E221E87D1E23E0FE00070CC2 /* Products */,
 			);
@@ -59,6 +58,7 @@
 			children = (
 				E221E87F1E23E0FE00070CC2 /* AppDelegate.swift */,
 				E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */,
+				E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */,
 				E221E8831E23E0FE00070CC2 /* Main.storyboard */,
 				E221E8861E23E0FE00070CC2 /* Assets.xcassets */,
 				E221E8881E23E0FE00070CC2 /* LaunchScreen.storyboard */,

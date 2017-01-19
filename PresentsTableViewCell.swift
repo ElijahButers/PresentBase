@@ -10,6 +10,10 @@ import UIKit
 
 class PresentsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var itemLabel: UILabel!
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
