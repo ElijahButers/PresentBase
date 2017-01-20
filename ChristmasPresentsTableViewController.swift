@@ -59,6 +59,7 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
         let imagePicker = UIImagePickerController()
         imagePicker.sourceType = .photoLibrary
         imagePicker.delegate = self
+        self.present(imagePicker, animated: true, completion: nil)
     }
 
 }
