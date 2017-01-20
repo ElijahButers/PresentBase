@@ -61,5 +61,11 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
         imagePicker.delegate = self
         self.present(imagePicker, animated: true, completion: nil)
     }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    }
 
 }
