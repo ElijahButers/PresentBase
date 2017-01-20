@@ -12,6 +12,7 @@
 		E221E8871E23E0FE00070CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E221E8861E23E0FE00070CC2 /* Assets.xcassets */; };
 		E221E88A1E23E0FE00070CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E221E8881E23E0FE00070CC2 /* LaunchScreen.storyboard */; };
 		E221EEDD1E313A5000BFBA4A /* PresentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */; };
+		E24EECD41E323D880073CC86 /* PresentModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E24EECD21E323D880073CC86 /* PresentModel.xcdatamodeld */; };
 		E2689EEE1E29818F008A503A /* ChristmasPresentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		E221E8891E23E0FE00070CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E221E88B1E23E0FE00070CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentsTableViewCell.swift; path = ../PresentsTableViewCell.swift; sourceTree = "<group>"; };
+		E24EECD31E323D880073CC86 /* PresentModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PresentModel.xcdatamodel; sourceTree = "<group>"; };
 		E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChristmasPresentsTableViewController.swift; path = ../ChristmasPresentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 				E2689EED1E29818F008A503A /* ChristmasPresentsTableViewController.swift */,
 				E221EEDC1E313A5000BFBA4A /* PresentsTableViewCell.swift */,
 				E221E8831E23E0FE00070CC2 /* Main.storyboard */,
+				E24EECD21E323D880073CC86 /* PresentModel.xcdatamodeld */,
 				E221E8861E23E0FE00070CC2 /* Assets.xcassets */,
 				E221E8881E23E0FE00070CC2 /* LaunchScreen.storyboard */,
 				E221E88B1E23E0FE00070CC2 /* Info.plist */,
@@ -142,6 +145,7 @@
 				E2689EEE1E29818F008A503A /* ChristmasPresentsTableViewController.swift in Sources */,
 				E221E8801E23E0FE00070CC2 /* AppDelegate.swift in Sources */,
 				E221EEDD1E313A5000BFBA4A /* PresentsTableViewCell.swift in Sources */,
+				E24EECD41E323D880073CC86 /* PresentModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E24EECD21E323D880073CC86 /* PresentModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E24EECD31E323D880073CC86 /* PresentModel.xcdatamodel */,
+			);
+			currentVersion = E24EECD31E323D880073CC86 /* PresentModel.xcdatamodel */;
+			path = PresentModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E221E8741E23E0FE00070CC2 /* Project object */;
 }
