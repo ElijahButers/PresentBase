@@ -66,6 +66,7 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
     }
 
 }
