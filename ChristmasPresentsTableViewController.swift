@@ -19,6 +19,8 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
 
         let iconImageView = UIImageView(image: UIImage(named: "Shape"))
         self.navigationItem.titleView = iconImageView
+        
+        managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     }
 
     override func didReceiveMemoryWarning() {
