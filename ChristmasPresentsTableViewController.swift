@@ -81,6 +81,29 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
     
     func createPresentItem(with image: UIImage) {
         
+        let presentItem = Present(context: managedObjectContext)
+        presentItem.image = NSData(data: UIImageJPEGRepresentation(image, 0.3)!)
+        
+        let inputAlert = UIAlertController(title: "New Present", message: "Enter a person and present.", preferredStyle: .alert)
+        inputAlert.addTextField { (textField: UITextField) in
+            textField.placeholder = "Person"
+        }
+        inputAlert.addTextField { (textField: UITextField) in
+            textField.placeholder = "Present"
+        }
+        
+        inputAlert.addAction(UIAlertAction(title: "Save", style: .default, handler: { (action: UIAlertAction) in
+            
+            let personTextField = inputAlert.textFields?.first
+            let presentTextField = inputAlert.textFields?.last
+            
+            if personTextField?.text != "" && presentTextField?.text != "" {
+                
+            }
+        }))
+        
+        inputAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(inputAlert, animated: true, completion: nil)
     }
 
 }
