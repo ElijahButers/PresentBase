@@ -51,7 +51,7 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return myGifts.count
+        return presents.count
     }
 
     
@@ -59,10 +59,14 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! PresentsTableViewCell
 
         // Configure the cell...
-        let giftObject = myGifts[indexPath.row]
-        cell.backgroundImageView.image = UIImage(named: giftObject["image"]!)
-        cell.nameLabel.text = giftObject["name"]
-        cell.itemLabel.text = giftObject["item"]
+        let presentItem = presents[indexPath.row]
+        
+        if let presentImage = UIImage(data: presentItem.image as! Data) {
+            cell.backgroundImageView.image = presentImage
+        }
+        
+        cell.nameLabel.text = presentItem.person
+        cell.itemLabel.text = presentItem.presentName
 
         return cell
     }
