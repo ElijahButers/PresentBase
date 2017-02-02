@@ -99,6 +99,14 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
             
             if personTextField?.text != "" && presentTextField?.text != "" {
                 
+                presentItem.person = personTextField?.text
+                presentItem.presentName = presentTextField?.text
+                
+                do {
+                    try self.managedObjectContext.save()
+                } catch {
+                    print("Could not save data \(error.localizedDescription)")
+                }
             }
         }))
         
