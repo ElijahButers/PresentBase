@@ -122,6 +122,7 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
                 
                 do {
                     try self.managedObjectContext.save()
+                    self.loadData()
                 } catch {
                     print("Could not save data \(error.localizedDescription)")
                 }
