@@ -22,11 +22,17 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
         self.navigationItem.titleView = iconImageView
         
         managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        loadData()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func loadData() {
+        
     }
 
     // MARK: - Table view data source
