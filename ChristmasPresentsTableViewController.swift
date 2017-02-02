@@ -33,6 +33,13 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
     
     func loadData() {
         
+        let presentRequest: NSFetchRequest <Present> = Present.fetchRequest()
+        
+        do {
+            presents = try managedObjectContext.fetch(presentRequest)
+        } catch {
+            print("Could not load data from database \(error.localizedDescription)")
+        }
     }
 
     // MARK: - Table view data source
