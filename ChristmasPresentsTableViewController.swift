@@ -37,6 +37,7 @@ class ChristmasPresentsTableViewController: UITableViewController, UIImagePicker
         
         do {
             presents = try managedObjectContext.fetch(presentRequest)
+            self.tableView.reloadData()
         } catch {
             print("Could not load data from database \(error.localizedDescription)")
         }
